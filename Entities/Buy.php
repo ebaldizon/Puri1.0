@@ -9,8 +9,9 @@
     private subTotal;
     private tax;
     private total;
+    private const taxRate = 0.13;
 
-    function _construct($id, $date, $nombre, $cart)
+    function __construct($id, $date, $nombre, $cart)
     {
       $this->id = $id;
       $this->date = $date;
@@ -27,13 +28,11 @@
 
     function processTax()
     {
-      $this->tax = $this->subtotal * 0.13;
-    }
-
-    function applyTaxTotal()
-    {
+      $this->tax = $this->subtotal * taxRate;
       $this->total = $this->subTotal + $this->tax;
     }
+
+    function
 
     function getId()
     {
