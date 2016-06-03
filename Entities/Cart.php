@@ -3,7 +3,7 @@
   {
     $private id;
     $private user;
-    $private products = array();
+    $private products;
     $private mount;
 
     public function __construct($id, $user, $products, $mount)
@@ -12,6 +12,24 @@
       $this->user = $user;
       $this->products = $products;
       $this->mount = $mount;
+    }
+
+    public function __construct()
+    {
+      $this->id = 0
+      $this->user = "";
+      $this->products = array();
+      $this->mount = 0;
+    }
+
+    public function addProduct($product)
+    {
+      array_push($this->products, $product);
+    }
+
+    public function removeProduct($product)
+    {
+
     }
 
     public function getId()
