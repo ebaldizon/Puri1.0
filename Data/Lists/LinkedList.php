@@ -11,7 +11,6 @@
       $longest = 0;
     }
 
-/********************************/
     public function add_obj($obj)
     {
 
@@ -39,31 +38,37 @@
       }
     }
 
-    /*****************************  without variable $found
-    public function remove_obj_1($obj)
+    public function find_obj_1($obj)
     {
       $wanted = new Node();
       $wanted->setData($obj);
       $runner = $this->head;
+      $found = false;
 
-      while($runner->getData() != $wanted->getData())
+      for($i=0;$i<=$longest;$i++)
+      if($runner->getData() == $wanted->getData())
       {
-        if($runner->getNext()->getData() == $wanted->getData())
-        {
-          $bodyRest = $runner->getNext()->getNext();
-          $runner->setNext($bodyRest);
-          $this->longest--;
-        }
-        else
-        {
-          echo $runner->getData();
-          $runner = $runner->getNext();
-        }
+        return $runner;
       }
+      return false;
     }
-    *************************************/
 
-    public function remove_obj($obj)
+    public function find_obj_2($obj)
+    {
+      $wanted = new Node();
+      $wanted->setData($obj);
+      $runner = $this->head;
+      $found = false;
+
+      for($i=0;$i<=$longest;$i++)
+      if($runner->getNext()->getData() == $wanted->getData())
+      {
+        return $runner;
+      }
+      return false;
+    }
+
+    public function remove_obj_1($obj)
     {
       $wanted = new Node();
       $wanted->setData($obj);
@@ -88,6 +93,18 @@
       return false;
     }
 
+    public function remove_obj_2($obj)
+    {
+      $beforeNode = find_obj_2($obj);
+      if($beforeNode != false)
+      {
+        $beforeNode->setNext($beforeNode->getNext()->getNex());
+        return true;
+      }
+      return false;
+    }
+
+
     public function viewAllContent()
     {
       $runner = $this->head;
@@ -98,6 +115,33 @@
         $runner = $runner->getNext();
       }
     }
+
+    //End class
   }
 
+  //Gosths of the past
+
+  /*without variable $found
+  public function remove_obj_1($obj)
+  {
+    $wanted = new Node();
+    $wanted->setData($obj);
+    $runner = $this->head;
+
+    while($runner->getData() != $wanted->getData())
+    {
+      if($runner->getNext()->getData() == $wanted->getData())
+      {
+        $bodyRest = $runner->getNext()->getNext();
+        $runner->setNext($bodyRest);
+        $this->longest--;
+      }
+      else
+      {
+        echo $runner->getData();
+        $runner = $runner->getNext();
+      }
+    }
+  }
+  *************************************/
 ?>
