@@ -26,7 +26,6 @@
         </div>
         <div class="col-md-3">
           <br>
-          <br>
           <a class="btn btn-social-icon btn-facebook">
             <span class="fa fa-facebook"></span>
           </a>
@@ -40,6 +39,7 @@
             <span class="fa fa-pinterest"></span>
           </a>
         </div>
+
       </div>
 
     </div>
@@ -56,40 +56,11 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="Presentation/Nosotros.php">Nosotros</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Purificadores<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="Presentation/Purifiers/Essential.php">Essential</a></li>
-                    <li><a href="Presentation/Purifiers/OsmosisInversa.php">&Oacute;mosis Inversa</a></li>
-                    <li><a href="Presentation/Purifiers/Ozono.php">Ozono</a></li>
-                    <li><a href="Presentation/Purifiers/Ultravioleta.php">Ultravioleta</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="Presentation/Purifiers/Dispensador.php">Dispensadores</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="Presentation/Purifiers/Industrial.php">Industriales</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cocina<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="Presentation/Kitchen/Sarten.php">Sartenes</a></li>
-                    <li><a href="Presentation/Kitchen/Cacerola.php">Cacerolas</a></li>
-                    <li><a href="#">Asadores el&eacute;ctricos</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="Presentation/Kitchen/SetCubiertos.php">Set de cubiertos</a></li>
-                    <li><a href="Presentation/Kitchen/SetOllas.php">Set de ollas</a></li>
-                  </ul>
-                </li>
+                <li><a href="Presentation/Purificadores.php">Purificadores</a></li>
+                <li><a href="Presentation/Nosotros.php">Accesorios de cocina</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="Presentation/Contactenos.php">Cont&aacute;ctenos</a></li>
               </ul>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="">
-                </div>
-                <button type="submit" class="btn btn-default">Buscar</button>
-              </form>
-
               <ul class="nav navbar-nav navbar-right">
                 <!--<li><a href="#">Link3</a></li>-->
                 <li class="dropdown">
@@ -101,12 +72,23 @@
                   </ul>
                 </li>
               </ul>
+
             </div><!-- /.navbar-collapse -->
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container main">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-default">Buscar</button>
+          </form>
+        </div><!--COL-->
+      </div><!--ROW-->
       <div id="carousel-example-generic" class="carousel slide slider-banner" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -187,7 +169,9 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Web Latina ©</p>
+        <p class="text-muted">
+          Puri1.0 ©
+        </p>
       </div>
     </footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
