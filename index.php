@@ -57,8 +57,8 @@
                 <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="Presentation/Nosotros.php">Nosotros</a></li>
                 <li><a href="Presentation/Purificadores.php">Purificadores</a></li>
-                <li><a href="Presentation/Nosotros.php">Accesorios de cocina</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="Presentation/Cocina.php">Cocina</a></li>
+                <li><a href="Presentation/Servicios.php">Servicios</a></li>
                 <li><a href="Presentation/Contactenos.php">Cont&aacute;ctenos</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -66,7 +66,7 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mi cuenta<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Ingresar</a></li>
+                    <li><a href="Presentation/Users/Login.php">Ingresar</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">Registrarse</a></li>
                   </ul>

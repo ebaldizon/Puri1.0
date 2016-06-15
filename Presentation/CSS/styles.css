@@ -81,7 +81,7 @@
 /******************** MODS - EXCLUSIVOS *******************/
 .logo-balry
 {
-  width: 100px;
+  width: 250px;
 }
 
 .p-banner-1
@@ -109,7 +109,8 @@
 
 .img-thumbnails
 {
-  width: 200px;
+  max-width: 200px;
+  max-height:200px;
 }
 
 /* Sticky footer styles
@@ -157,7 +158,6 @@ body > .container {
   padding-left: 15px;
 }
 
-
 .main
 {
   margin-bottom: 200px;
@@ -167,3 +167,27 @@ body > .container {
 {
   position: relative;
 }
+
+
+.text-1
+{
+  font-size: 18px;
+}
+
+/*************** FORM LOGIN *****************/
+.center
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  margin-top: 50px;
+}
+
+.h-login
+{
+  text-align: center;
+  font-size: bold;
+}
+
+/**************** MENU HOME *******************/

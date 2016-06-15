@@ -54,11 +54,11 @@
           <div class="container">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="../index.php">Inicio</a></li>
+                <li><a href="../index.php">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="Nosotros.php">Nosotros</a></li>
-                <li class="active"><a href="#">Purificadores<span class="sr-only">(current)</span></a></li>
+                <li><a href="Purificadores.php">Purificadores</a></li>
                 <li><a href="Cocina.php">Cocina</a></li>
-                <li><a href="Servicios.php">Servicios</a></li>
+                <li class="active"><a href="#">Servicios</a></li>
                 <li><a href="Contactenos.php">Cont&aacute;ctenos</a></li>
               </ul>
 
@@ -67,7 +67,7 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mi cuenta<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="Users/Login.php">Ingresar</a></li>
+                    <li><a href="#">Ingresar</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">Registrarse</a></li>
                   </ul>
@@ -79,75 +79,7 @@
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container main">
-      <div class="row">
-        <div class="col-md-12">
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="">
-            </div>
-            <button type="submit" class="btn btn-default">Buscar</button>
-          </form>
-        </div><!--COL-->
-      </div><!--ROW-->
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-essential.png" alt="...">
-            <div class="caption">
-              <h3>Essential</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-osmosis-inversa.png" alt="...">
-            <div class="caption">
-              <h3>&Oacute;mosis Inversa</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-ozono.png" alt="...">
-            <div class="caption">
-              <h3>Ozono</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-      </div><!--ROW-->
 
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-ultravioleta.png" alt="...">
-            <div class="caption">
-              <h3>Ultravioleta</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-dispensador.png" alt="...">
-            <div class="caption">
-              <h3>Dispensador</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img class="img-purifiers" src="img/puri-industrial.jpg" alt="...">
-            <div class="caption">
-              <h3>Industrial</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
-            </div>
-          </div>
-        </div>
-      </div><!--ROW-->
     </div>
     <footer class="footer">
       <div class="container">

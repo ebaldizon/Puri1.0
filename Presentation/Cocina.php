@@ -54,12 +54,12 @@
           <div class="container">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
-                <li><a href="Presentation/Nosotros.php">Nosotros</a></li>
-                <li><a href="Presentation/Nosotros.php">Purificadores</a></li>
-                <li><a href="Presentation/Nosotros.php">Cocina</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="Presentation/Contactenos.php">Cont&aacute;ctenos</a></li>
+                <li><a href="../index.php">Inicio</a></li>
+                <li><a href="Nosotros.php">Nosotros</a></li>
+                <li><a href="Purificadores.php">Purificadores</a></li>
+                <li class="active"><a href="#">Cocina <span class="sr-only">(current)</span></a></li>
+                <li><a href="Servicios.php">Servicios</a></li>
+                <li><a href="Contactenos.php">Cont&aacute;ctenos</a></li>
               </ul>
 
               <ul class="nav navbar-nav navbar-right">
@@ -67,7 +67,7 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mi cuenta<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Ingresar</a></li>
+                    <li><a href="Users/Login.php">Ingresar</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">Registrarse</a></li>
                   </ul>
@@ -189,6 +189,6 @@
       </div>
     </footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="Presentation/Bootstrap/js/bootstrap.js"></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
