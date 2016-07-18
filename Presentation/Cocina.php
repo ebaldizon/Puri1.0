@@ -95,7 +95,7 @@
             <img class="img-purifiers" src="img/coci-sarten.jpg" alt="...">
             <div class="caption">
               <h3>Sartenes</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@
             <img class="img-purifiers" src="img/coci-olla-presion.jpg" alt="...">
             <div class="caption">
               <h3>Ollas de presi&oacute;n</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             <img class="img-purifiers" src="img/coci-asador-electrico.jpg" alt="...">
             <div class="caption">
               <h3>Asadores el&eacute;ctricos</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@
             <img class="img-purifiers" src="img/coci-cacerola.jpg" alt="...">
             <div class="caption">
               <h3>Cacerolas</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@
             <img class="img-purifiers" src="img/coci-cubiertos.jpg" alt="...">
             <div class="caption">
               <h3>Cubiertos</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@
             <img class="img-purifiers" src="img/coci-set-ollas.jpg" alt="...">
             <div class="caption">
               <h3>Set Ollas</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@
             <img class="img-purifiers" src="img/coci-cuchillo.jpg" alt="...">
             <div class="caption">
               <h3>Cuchillos</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@
             <img class="img-purifiers" src="img/coci-tenedor-cocina.jpg" alt="...">
             <div class="caption">
               <h3>Tenedores de cocina</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@
             <img class="img-purifiers" src="img/coci-cucharones.jpg" alt="...">
             <div class="caption">
               <h3>Cucharones</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Cat&aacute;logo</a></p>
             </div>
           </div>
         </div>

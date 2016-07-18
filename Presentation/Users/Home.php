@@ -75,7 +75,7 @@
             <img class="img-thumbnails" src="../img/home/2-comp.png" alt="...">
             <div class="caption">
               <h3>Compras</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Ingresar</a></p>
+              <p><a href="Tools/Compras.php" class="btn btn-primary" role="button">Ingresar</a></p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
             <img class="img-thumbnails" src="../img/home/1-man.png" alt="...">
             <div class="caption">
               <h3>Mantenimientos</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Ingresar</a></p>
+              <p><a href="Tools/Mantenimientos.php" class="btn btn-primary" role="button">Ingresar</a></p>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@
             <img class="img-thumbnails" src="../img/home/3-credi.png" alt="...">
             <div class="caption">
               <h3>Créditos</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Ingresar</a></p>
+              <p><a href="Tools/Creditos.php" class="btn btn-primary" role="button">Ingresar</a></p>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <img class="img-thumbnails" src="../img/home/4-usua.png" alt="...">
             <div class="caption">
               <h3>Información de usuario</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Ingresar</a></p>
+              <p><a href="Tools/Informacion.php" class="btn btn-primary" role="button">Ingresar</a></p>
             </div>
           </div>
         </div>

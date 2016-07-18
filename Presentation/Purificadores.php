@@ -1,3 +1,9 @@
+<?php
+
+  SESSION_START();
+  $_SESSION['cart'] = ARRAY();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -94,8 +100,11 @@
           <div class="thumbnail">
             <img class="img-purifiers" src="img/puri-essential.png" alt="...">
             <div class="caption">
-              <h3>Essential</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <h3>Essential - ‎₡250,000</h3>
+              <form action="Purificadores.php">
+                <input class="btn btn-primary" type="submit" name="addCar" value="Añadir el carrito" onclick="insert()" />
+                <a href="Purifiers/Essential.php" class="btn btn-default" role="button">Informaci&oacute;n</a>
+              </form>
             </div>
           </div>
         </div>
@@ -103,8 +112,8 @@
           <div class="thumbnail">
             <img class="img-purifiers" src="img/puri-osmosis-inversa.png" alt="...">
             <div class="caption">
-              <h3>&Oacute;mosis Inversa</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <h3>&Oacute;mosis Inversa - ‎₡450,000</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Añadir el carrito</a> <a href="Purifiers/OsmosisInversa.php" class="btn btn-default" role="button">Informaci&oacute;n</a></p>
             </div>
           </div>
         </div>
@@ -112,8 +121,8 @@
           <div class="thumbnail">
             <img class="img-purifiers" src="img/puri-ozono.png" alt="...">
             <div class="caption">
-              <h3>Ozono</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <h3>Ozono - ‎₡300,000</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Añadir el carrito</a> <a href="Purifiers/Ozono.php" class="btn btn-default" role="button">Informaci&oacute;n</a></p>
             </div>
           </div>
         </div>
@@ -124,8 +133,8 @@
           <div class="thumbnail">
             <img class="img-purifiers" src="img/puri-ultravioleta.png" alt="...">
             <div class="caption">
-              <h3>Ultravioleta</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <h3>Ultravioleta - ‎₡300,000</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Añadir el carrito</a> <a href="#" class="btn btn-default" role="button">Informaci&oacute;n</a></p>
             </div>
           </div>
         </div>
@@ -133,8 +142,8 @@
           <div class="thumbnail">
             <img class="img-purifiers" src="img/puri-dispensador.png" alt="...">
             <div class="caption">
-              <h3>Dispensador</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <h3>Dispensador - ‎₡450,000</h3>
+              <p><a href="#" class="btn btn-primary" role="button">Añadir el carrito</a> <a href="Purifiers/Dispensador.php" class="btn btn-default" role="button">Informaci&oacute;n</a></p>
             </div>
           </div>
         </div>
@@ -143,7 +152,7 @@
             <img class="img-purifiers" src="img/puri-industrial.jpg" alt="...">
             <div class="caption">
               <h3>Industrial</h3>
-              <p><a href="#" class="btn btn-primary" role="button">Informaci&oacute;n</a> <a href="#" class="btn btn-default" role="button">Cotizar</a></p>
+              <p><a href="#" class="btn btn-primary" role="button">Añadir el carrito</a> <a href="#" class="btn btn-default" role="button">Informaci&oacute;n</a></p>
             </div>
           </div>
         </div>

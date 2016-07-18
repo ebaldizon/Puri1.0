@@ -1,47 +1,70 @@
 <?php
-  class Product
-  {
-    private $code;
-    private $name;
-    private $departament;
-    private $cost;
-
-    public function __construct($code, $name, $departament, $cost)
+    class Product
     {
-      $this->code = $code;
-      $this->name = $name;
-      $this->cost = $cost;
-    }
+        private $code;
+        private $name;
+        private $depart;
+        private $price;
+        private $warranty;
 
-    public function getCode()
-    {
-      return $this->code;
-    }
+        function __construct($code, $name, $depart, $price, $warranty)
+        {
+            $this->code = $code;
+            $this->name = $name;
+            $this->depart = $depart;
+            $this->price = $price;
+            $this->warranty = $warranty;
+        }
 
-    public function setCode($code)
-    {
-      $this->code = $code;
-    }
+        function getCode()
+        {
+            return $this->code;
+        }
 
-    public function getName()
-    {
-      return $this->code;
-    }
+        function setCode($code)
+        {
+            $this->code = $code;
+        }
 
-    public function setName($name)
-    {
-      $this->name = $name;
-    }
+        function getName()
+        {
+            return $this->name;
+        }
 
-    public function getCost()
-    {
-      return $this->cost;
-    }
+        function setName($name)
+        {
+            $this->name = $name;
+        }
 
-    public function setCost($cost)
-    {
-      $this->cost = $cost;
-    }
+        function getDepart()
+        {
+            return $this->depart;
+        }
 
-  }
+        function setDepar($depart)
+        {
+            $this->depart = $depart;
+        }
+
+        function getPrice()
+        {
+            return $this->price;
+        }
+
+        function setPrice($price)
+        {
+            $this->price = $price;
+        }
+
+        function getWarranty()
+        {
+            return $this->warranty;
+        }
+
+        function setWarranty($warranty)
+        {
+            $this->warranty = $warranty;
+        }
+        
+    }
 ?>

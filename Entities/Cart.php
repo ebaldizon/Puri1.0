@@ -1,75 +1,53 @@
 <?php
-  class Cart()
-  {
-    $private id;
-    $private user;
-    $private products;
-    $private mount;
-
-    public function __construct($id, $user, $products, $mount)
+    class Cart
     {
-      $this->id = $$id;
-      $this->user = $user;
-      $this->products = $products;
-      $this->mount = $mount;
-    }
+        private $id;
+        private $user;
+        private $products;
+        private $mount;
 
-    public function __construct()
-    {
-      $this->id = 0
-      $this->user = "";
-      $this->products = array();
-      $this->mount = 0;
-    }
+        function __construct($id, $user, $products, $mount)
+        {
+            $this->id = $id;
+            $this->user = $user;
+            $this->products = $products;
+            $this->mount = $mount;
+        }
 
-    public function addProduct($product)
-    {
-      array_push($this->products, $product);
-    }
+        function getId()
+        {
+            return $this->id;
+        }
 
-    public function removeProduct($product)
-    {
+        function setId($id)
+        {
+            $this->id = $id;
+        }
 
-    }
+        function getUser()
+        {
+            return $this->user;
+        }
 
-    public function getId()
-    {
-      return $this-id;
-    }
+        function setUser($user)
+        {
+            $this->user = $user;
+        }
 
-    public function setId($id)
-    {
-      $this->id = $id;
-    }
+        function getProducts($products)
+        {
+            return $this->products;
+        }
 
-    public function getUser()
-    {
-      return $this->user;
-    }
+        function getMount()
+        {
+            return $this->mount;
+        }
 
-    public function setUser($user)
-    {
-      $this->user = $user;
+        function setMount($mount)
+        {
+            $this->mount = $mount;
+        }
+        
     }
-
-    public function getProducts()
-    {
-      return $this->products;
-    }
-
-    public function setProducts($products)
-    {
-      $this->products = $products;
-    }
-
-    public function getMount()
-    {
-      return $this->mount;
-    }
-
-    public function setMount($mount)
-    {
-      return $this->mount = $mount;
-    }
-  }
 ?>

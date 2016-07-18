@@ -190,4 +190,34 @@ body > .container {
   font-size: bold;
 }
 
-/**************** MENU HOME *******************/
+/*************** PRODUCTS ***************************/
+.img-product
+{
+  width: 450px;
+}
+
+.img-article
+{
+  width: 175px;
+}
+
+.img-warranty
+{
+  width: 145px;
+}
+
+.img-button
+{
+  width: 40px;
+}
+
+.container-product
+{
+  margin-bottom: 75px;
+}
+
+.container-article
+{
+  margin-bottom: 55px;
+}
+

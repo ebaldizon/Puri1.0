@@ -75,16 +75,16 @@
     <div class="container main">
       <h1 class="h-login">Puri 1.0</h1>
       <div class="center">
-        <form>
+        <form action="../../Business/ManagLogin.php" method="post" name="frmLogin">
           <div class="form-group">
-            <label for="exampleInputEmail1">Correo</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <label>Correo</label>
+            <input type="email" class="form-control"  placeholder="Email" name="loginEmail">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label>Contraseña</label>
+            <input type="password" class="form-control" placeholder="Password" name="loginPassword">
           </div>
-          <a href="Home.php"><button type="submit" class="btn btn-default">Ingresar</button></a>
+          <button type="submit" class="btn btn-default">Ingresar</button>
         </form>
       </div>
 
