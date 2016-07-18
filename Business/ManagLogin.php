@@ -1,4 +1,7 @@
 <?php
+    include '../Data/UserData.php';
+    include '../Entities/Account.php';
+
     $email = $_POST['loginEmail'];
     $password = $_POST['loginPassword'];
 
@@ -8,7 +11,13 @@
     }
     else
     {
-        
-        echo "Bienvenido";
+        $account = new Account($email, $password);
+        $data = new UserData();
+
+        if($data->searchAccount($account))
+        {
+            echo "encontrado";
+        }
+
     }
 ?>
